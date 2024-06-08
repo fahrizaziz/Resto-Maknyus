@@ -25,4 +25,24 @@ class PageNavigator {
       ),
     );
   }
+
+  void pushPage({Widget? page}) {
+    Navigator.push(
+      ctx!,
+      MaterialPageRoute(
+        builder: (context) => page!,
+      ),
+    );
+  }
+
+  void popUp() {
+    Navigator.pop(ctx!);
+  }
+
+  void popUpToRoot() {
+    Navigator.popUntil(
+      ctx!,
+      (route) => route.isFirst,
+    );
+  }
 }

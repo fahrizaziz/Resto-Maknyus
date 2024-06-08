@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:dart_jsonwebtoken/dart_jsonwebtoken.dart';
 import 'package:flutter/material.dart';
 import 'package:jwt_decoder/jwt_decoder.dart';
 import 'package:responsive_framework/responsive_framework.dart';

@@ -33,6 +33,9 @@ class AuthProviders with ChangeNotifier {
     await UserPreferences().clearToken();
     await UserPreferences().clearPassword();
     await UserPreferences().clearAuthEmail();
+    await UserPreferences().clearUserModel();
+    SharedPreferences sp = await SharedPreferences.getInstance();
+    sp.clear();
     return true;
   }
 
