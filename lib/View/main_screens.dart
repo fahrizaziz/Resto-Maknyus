@@ -86,6 +86,9 @@ class _MainScreensState extends State<MainScreens> {
                 ),
               ),
             ),
+            Expanded(
+              child: _pages[_selectedIndex],
+            ),
           ],
         ),
       ),

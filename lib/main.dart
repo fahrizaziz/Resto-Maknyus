@@ -4,6 +4,7 @@ import 'package:responsive_framework/responsive_framework.dart';
 
 import 'View/splash_screens.dart';
 import 'ViewModel/auth_providers.dart';
+import 'ViewModel/product_providers.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,6 +20,9 @@ class MyApp extends StatelessWidget {
       providers: [
         ChangeNotifierProvider(
           create: (context) => AuthProviders(),
+        ),
+        ChangeNotifierProvider(
+          create: (context) => ProductProviders(),
         ),
       ],
       child: MaterialApp(

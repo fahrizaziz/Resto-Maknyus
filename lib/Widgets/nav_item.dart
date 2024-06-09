@@ -35,7 +35,7 @@ class NavItem extends StatelessWidget {
             ),
           ),
           child: ColoredBox(
-            color: isActive ? CustomColor.disalbe : Colors.transparent,
+            color: isActive ? CustomColor.disabled : Colors.transparent,
             child: Padding(
               padding: const EdgeInsets.all(
                 20.0,

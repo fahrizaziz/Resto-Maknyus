@@ -5,4 +5,6 @@ class AppAsset {
   static const iconReport = 'asset/icons/report.svg';
   static const iconSetting = 'asset/icons/setting.svg';
   static const iconLogout = 'asset/icons/logout.svg';
+  static const iconPajak = 'asset/icons/pajak.svg';
+  static const iconLayanan = 'asset/icons/layanan.svg';
 }
